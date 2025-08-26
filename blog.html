@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | EverGreen Landscapes</title>
+  <meta name="description" content="Landscaping tips, lawn care advice, seasonal maintenance checklists, and outdoor living ideas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <script defer src="/assets/js/main.js"></script>
+</head>
+<body>
+  <div class="topbar">
+    <div class="container">
+      <span>Call us today for a free on-site quote</span>
+      <a href="tel:+15551234567">+1 (555) 123-4567</a>
+      <a href="https://wa.me/15551234567" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+  <header class="header">
+    <div class="container nav">
+      <a href="/" class="brand"><span class="brand-logo">🌿</span> EverGreen Landscapes</a>
+      <nav class="nav-links">
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/services.html">Services</a>
+        <a href="/portfolio.html">Portfolio</a>
+        <a href="/testimonials.html">Testimonials</a>
+        <a href="/blog.html">Blog</a>
+        <a href="/contact.html" class="btn btn-primary">Get a Free Quote</a>
+      </nav>
+      <div class="split">
+        <button id="themeToggle" class="btn" aria-label="Toggle theme">🌗</button>
+        <button id="menuToggle" class="btn menu-toggle" aria-label="Toggle menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 class="section-title" data-animate>Landscaping Tips & Insights</h1>
+        <p class="section-subtitle" data-animate>Practical advice from our team to help your landscape thrive.</p>
+        <div class="grid" style="grid-template-columns: repeat(3, 1fr);">
+          <article class="card" data-animate>
+            <img src="https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?q=80&w=1000&auto=format&fit=crop" alt="Lawn care tips" />
+            <div class="card-body">
+              <h3 class="card-title">Spring Lawn Care Checklist</h3>
+              <p class="card-text">Timing matters. Here’s how to aerate, seed, and feed for a lush summer lawn.</p>
+              <a class="btn" href="#">Read Article</a>
+            </div>
+          </article>
+          <article class="card" data-animate>
+            <img src="https://images.unsplash.com/photo-1498654200943-1088dd4438ae?q=80&w=1000&auto=format&fit=crop" alt="Native plants" />
+            <div class="card-body">
+              <h3 class="card-title">Designing with Native Plants</h3>
+              <p class="card-text">Lower maintenance and more pollinators—why natives make landscapes thrive.</p>
+              <a class="btn" href="#">Read Article</a>
+            </div>
+          </article>
+          <article class="card" data-animate>
+            <img src="https://images.unsplash.com/photo-1523413872241-73a5c5f5f5e8?q=80&w=1000&auto=format&fit=crop" alt="Patio ideas" />
+            <div class="card-body">
+              <h3 class="card-title">Patio Ideas for Every Yard</h3>
+              <p class="card-text">From intimate stone circles to expansive outdoor kitchens—find your fit.</p>
+              <a class="btn" href="#">Read Article</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand split"><span class="brand-logo">🌿</span> EverGreen Landscapes</div>
+        <p class="muted mt-2">Design • Build • Maintain. Serving Springfield and surrounding areas since 2012.</p>
+        <small class="muted">123 Greenway Ave, Springfield, IL • <a href="tel:+15551234567">(555) 123-4567</a></small>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/portfolio.html">Portfolio</a></li>
+          <li><a href="/testimonials.html">Testimonials</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Houzz</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <small class="muted">© <span id="year"></span> EverGreen Landscapes. All rights reserved.</small>
+    </div>
+  </footer>
+  <div class="floating-ctas">
+    <a class="fab fab-whatsapp" href="https://wa.me/15551234567" target="_blank" aria-label="Chat on WhatsApp">🟢</a>
+    <a class="fab fab-quote" href="/contact.html" aria-label="Get a Free Quote">✉️</a>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

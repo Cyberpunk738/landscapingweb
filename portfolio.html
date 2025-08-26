@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | EverGreen Landscapes</title>
+  <meta name="description" content="Browse our landscaping portfolio: lawns, patios, water features, and garden transformations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <script defer src="/assets/js/main.js"></script>
+</head>
+<body>
+  <div class="topbar">
+    <div class="container">
+      <span>Call us today for a free on-site quote</span>
+      <a href="tel:+15551234567">+1 (555) 123-4567</a>
+      <a href="https://wa.me/15551234567" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+  <header class="header">
+    <div class="container nav">
+      <a href="/" class="brand"><span class="brand-logo">🌿</span> EverGreen Landscapes</a>
+      <nav class="nav-links">
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/services.html">Services</a>
+        <a href="/portfolio.html">Portfolio</a>
+        <a href="/testimonials.html">Testimonials</a>
+        <a href="/blog.html">Blog</a>
+        <a href="/contact.html" class="btn btn-primary">Get a Free Quote</a>
+      </nav>
+      <div class="split">
+        <button id="themeToggle" class="btn" aria-label="Toggle theme">🌗</button>
+        <button id="menuToggle" class="btn menu-toggle" aria-label="Toggle menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 class="section-title" data-animate>Portfolio</h1>
+        <p class="section-subtitle" data-animate>From cozy gardens to complete outdoor living spaces.</p>
+
+        <div class="filter-controls" data-animate>
+          <button class="btn btn-primary" data-filter="all">All</button>
+          <button class="btn" data-filter="lawns">Lawns</button>
+          <button class="btn" data-filter="patios">Patios</button>
+          <button class="btn" data-filter="water">Water Features</button>
+          <button class="btn" data-filter="gardens">Gardens</button>
+        </div>
+
+        <div class="grid gallery-grid">
+          <div class="gallery-item" data-category="lawns" data-animate>
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop" alt="Pristine lawn" />
+            <div class="label">Lawn Renovation</div>
+          </div>
+          <div class="gallery-item" data-category="patios" data-animate>
+            <img src="https://images.unsplash.com/photo-1560185008-b033106af2f9?q=80&w=1200&auto=format&fit=crop" alt="Stone patio" />
+            <div class="label">Stone Patio</div>
+          </div>
+          <div class="gallery-item" data-category="water" data-animate>
+            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200&auto=format&fit=crop" alt="Pond with water feature" />
+            <div class="label">Backyard Pond</div>
+          </div>
+          <div class="gallery-item" data-category="gardens" data-animate>
+            <img src="https://images.unsplash.com/photo-1486299267070-83823f5448dd?q=80&w=1200&auto=format&fit=crop" alt="Garden path" />
+            <div class="label">Perennial Garden</div>
+          </div>
+          <div class="gallery-item" data-category="patios" data-animate>
+            <img src="https://images.unsplash.com/photo-1601918774946-25832a4be0d6?q=80&w=1200&auto=format&fit=crop" alt="Fire pit area" />
+            <div class="label">Fire Pit Lounge</div>
+          </div>
+          <div class="gallery-item" data-category="lawns" data-animate>
+            <img src="https://images.unsplash.com/photo-1597047084897-51e81819a499?q=80&w=1200&auto=format&fit=crop" alt="Green lawn" />
+            <div class="label">Aeration & Overseed</div>
+          </div>
+          <div class="gallery-item" data-category="gardens" data-animate>
+            <img src="https://images.unsplash.com/photo-1445308394109-4ec2920981b1?q=80&w=1200&auto=format&fit=crop" alt="Flower garden" />
+            <div class="label">Cottage Garden</div>
+          </div>
+          <div class="gallery-item" data-category="water" data-animate>
+            <img src="https://images.unsplash.com/photo-1482192505345-5655af888cc4?q=80&w=1200&auto=format&fit=crop" alt="Water fountain" />
+            <div class="label">Garden Fountain</div>
+          </div>
+        </div>
+
+        <h2 class="section-title mt-4" data-animate>Before & After</h2>
+        <div class="grid" style="grid-template-columns: 1fr 1fr;">
+          <div class="ba-slider" data-animate>
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop" alt="After patio" />
+            <div class="ba-overlay" style="width:50%">
+              <img src="https://images.unsplash.com/photo-1625557607872-2c496da2f80b?q=80&w=1600&auto=format&fit=crop" alt="Before patio" />
+            </div>
+            <div class="ba-handle"></div>
+            <input class="ba-range" type="range" min="0" max="100" value="50" />
+          </div>
+          <div class="ba-slider" data-animate>
+            <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=1600&auto=format&fit=crop" alt="After garden" />
+            <div class="ba-overlay" style="width:50%">
+              <img src="https://images.unsplash.com/photo-1473773508845-188df298d2d1?q=80&w=1600&auto=format&fit=crop" alt="Before garden" />
+            </div>
+            <div class="ba-handle"></div>
+            <input class="ba-range" type="range" min="0" max="100" value="50" />
+          </div>
+        </div>
+
+        <div class="center mt-4" data-animate>
+          <a class="btn btn-primary" href="/contact.html">Start Your Project</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand split"><span class="brand-logo">🌿</span> EverGreen Landscapes</div>
+        <p class="muted mt-2">Design • Build • Maintain. Serving Springfield and surrounding areas since 2012.</p>
+        <small class="muted">123 Greenway Ave, Springfield, IL • <a href="tel:+15551234567">(555) 123-4567</a></small>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/portfolio.html">Portfolio</a></li>
+          <li><a href="/testimonials.html">Testimonials</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Houzz</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <small class="muted">© <span id="year"></span> EverGreen Landscapes. All rights reserved.</small>
+    </div>
+  </footer>
+  <div class="floating-ctas">
+    <a class="fab fab-whatsapp" href="https://wa.me/15551234567" target="_blank" aria-label="Chat on WhatsApp">🟢</a>
+    <a class="fab fab-quote" href="/contact.html" aria-label="Get a Free Quote">✉️</a>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
